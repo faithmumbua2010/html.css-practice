@@ -1,0 +1,22 @@
+.div1 {
+  background-color: skyblue;
+}
+.div2 {
+  background-color: lightpink;
+}
+.mainDiv {
+  display: grid;
+  grid-template-columns: 100px 100px;
+}
+.mainDiv2 {
+    margin-top: 30px;
+  display: grid;
+  grid-template-columns: 100px 100px 200px;
+}
+.div3{
+    background-color: lightgreen;
+}
+.div4{
+    background-color: lightpink;
+}
+
