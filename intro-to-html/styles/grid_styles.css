@@ -9,14 +9,41 @@
   grid-template-columns: 100px 100px;
 }
 .mainDiv2 {
-    margin-top: 30px;
+  margin-top: 30px;
   display: grid;
   grid-template-columns: 100px 100px 200px;
 }
-.div3{
-    background-color: lightgreen;
+.div3 {
+  background-color: lightgreen;
 }
-.div4{
-    background-color: lightpink;
+.div4 {
+  background-color: lightpink;
+}
+.mainDiv3 {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 100px 1fr;
 }
 
+.mainDiv4 {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+.div6 {
+  height: 200px;
+  background-color: lightblue;
+}
+.div7 {
+  height: 200px;
+  background-color: lightpink;
+}
+.div8 {
+  height: 200px;
+  background-color: lightgreen;
+}
+body{
+    padding-bottom: 1000px ;
+}
